@@ -89,3 +89,4 @@ count_brace -= count_format * 2
 # записываю в файл закрывающиеся фигурные скобки
 for i in range(count_brace - 1, -1, -1):
     f_w.write((2 * i * ' ') + '}\n')
+# EOF
